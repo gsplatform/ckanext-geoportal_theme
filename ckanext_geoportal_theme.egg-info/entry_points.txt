@@ -1,0 +1,6 @@
+
+        [ckan.plugins]
+        # Add plugins here, e.g.
+        # myplugin=ckanext.geoportal_theme.plugin:PluginClass
+        geoportal_theme=ckanext.geoportal_theme.plugin:GeoportalThemePlugin
+    

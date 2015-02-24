@@ -1,0 +1,43 @@
+<footer class="site-footer">
+  <div class="container">
+    {% block footer_content %}
+<a href="{{ h.url('home') }}" style="margin-left: 800px;"><img src="/images/gspace_logo_purple.png" style="margin-top:-15px">トップへ</a>
+      <nav class="footer-links">
+        {% block footer_nav %}
+          <ul class="unstyled">
+            {% block footer_links %}
+            <!--  <li><a href="{{ h.url_for(controller='home', action='about') }}">{{ _('About {0}').format(g.site_title) }}</a></li> -->
+            <li><a href="{{ h.url_for(controller='home', action='about') }}" style="font-weight: bold;">{{ _('G空間について').format(g.site_title) }}</a></li>
+            {% endblock %}
+          </ul>
+          <ul class="unstyled">
+            {% block footer_links_ckan %}
+              <li><a href="#">フッターリンク</a></li>
+              <li><a href="#">フッターリンク</a></li>
+              <li><a href="#">フッターリンク</a></li>
+              <li><a href="#">フッターリンク</a></li>
+            {% endblock %}
+          </ul>
+        {% endblock %}
+      </nav>
+      <!-- <div class="attribution"> -->
+      <nav class="footer-links">
+	<ul class="unstyled">
+	  <li><a href="#">フッターリンク</a></li>
+          <li><a href="#">フッターリンク</a></li>
+          <li><a href="#">フッターリンク</a></li>
+          <li><a href="#">フッターリンク</a></li>
+	</ul>
+      </nav>
+<!--
+      </div>
+      -->
+    {% endblock %}
+  </div>
+
+  {% block footer_debug %}
+    {% if g.debug %}
+      {% include 'snippets/debug.html' %}
+    {% endif %}
+  {% endblock %}
+</footer>

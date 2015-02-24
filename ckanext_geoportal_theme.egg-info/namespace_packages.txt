@@ -1,0 +1,2 @@
+ckanext
+ckanext.geoportal_theme
