@@ -546,7 +546,7 @@ a {
 
 .toolbar { 
 //    background: #4E59A4;
-    background-image: url(/images/breadcrumb_bcgd.jpg);
+    background-image: url(../images/breadcrumb_bcgd.jpg);
     margin: 0;
     height: 40px;
 //    width: 100%;
@@ -883,7 +883,7 @@ a {
 
 .site-footer{
     background-color: #ECECEC;
-    background-image: url(/images/footer_bcgd.jpg);
+    background-image: url(../images/footer_bcgd.jpg);
     //color: #6B75B3;
     color: #666;
 }

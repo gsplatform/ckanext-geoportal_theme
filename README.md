@@ -1,8 +1,4 @@
-# ckanext-geoportal_theme
-Geoplatform Theme Extention
-
-
-# テーマインストール方法
+﻿# テーマインストール方法
 
 
 1. ckanext-geoportal_themeを/usr/lib/ckan/default/src/ 以下に設置

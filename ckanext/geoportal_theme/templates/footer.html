@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <div class="container">
     {% block footer_content %}
-<a href="{{ h.url('home') }}" style="margin-left: 800px;"><img src="/images/gspace_logo_purple.png" style="margin-top:-15px">トップへ</a>
+<a href="{{ h.url('home') }}" style="margin-left: 800px;"><img src="images/gspace_logo_purple.png" style="margin-top:-15px">トップへ</a>
       <nav class="footer-links">
         {% block footer_nav %}
           <ul class="unstyled">
@@ -12,10 +12,6 @@
           </ul>
           <ul class="unstyled">
             {% block footer_links_ckan %}
-              <li><a href="#">フッターリンク</a></li>
-              <li><a href="#">フッターリンク</a></li>
-              <li><a href="#">フッターリンク</a></li>
-              <li><a href="#">フッターリンク</a></li>
             {% endblock %}
           </ul>
         {% endblock %}
@@ -23,15 +19,18 @@
       <!-- <div class="attribution"> -->
       <nav class="footer-links">
 	<ul class="unstyled">
-	  <li><a href="#">フッターリンク</a></li>
-          <li><a href="#">フッターリンク</a></li>
-          <li><a href="#">フッターリンク</a></li>
-          <li><a href="#">フッターリンク</a></li>
 	</ul>
       </nav>
 <!--
       </div>
       -->
+      <div class="attribution">
+	<ul class="unstyled" style="width: 520px;">
+	  <li>
+	    (C) 2015 Ministry of Internal Affairs and Communications All Rights Reserved.
+	  </li>
+	</ul>
+      </div>
     {% endblock %}
   </div>
 
