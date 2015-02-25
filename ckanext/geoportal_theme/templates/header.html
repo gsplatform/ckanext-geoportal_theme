@@ -9,7 +9,7 @@
               <li>
                 <form class="section site-search simple-input" action="{% url_for controller='package', action='search' %}" method="get">
                     <label for="field-sitewide-search">{{ _('Search Datasets') }}</label>
-<img src="images/icon_search.png">
+<img src="{{ h.url('/', locale='default', qualified=true) }}images/icon_search.png">
                     <input id="field-sitewide-search" type="text" name="q" placeholder="{{ _('Search datasets...') }}" style="margin-top: 6px;" />
                     <button class="btn-search" type="submit"><i class="icon-search"></i></button>
                 </form>
@@ -61,7 +61,7 @@
                 <form class="section site-search simple-input" action="{% url_for controller='package', action='search' %}" method="get">
 <!--1                    <div class="field"> -->
                     <label for="field-sitewide-search">{{ _('Search Datasets') }}</label>
-                    <img src="images/icon_search.png">
+                    <img src="{{ h.url('/', locale='default', qualified=true) }}images/icon_search.png">
                     <input id="field-sitewide-search" type="text" name="q" placeholder="{{ _('Search datasets...') }}" style="margin-top: 6px;"/>
                     <button class="btn-search" type="submit"><i class="icon-search"></i></button>
 <!--                    </div> -->

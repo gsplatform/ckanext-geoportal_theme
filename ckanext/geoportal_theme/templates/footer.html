@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <div class="container">
     {% block footer_content %}
-<a href="{{ h.url('home') }}" style="margin-left: 800px;"><img src="images/gspace_logo_purple.png" style="margin-top:-15px">トップへ</a>
+<a href="{{ h.url('home') }}" style="margin-left: 800px;"><img src="{{ h.url('/', locale='default', qualified=true) }}images/gspace_logo_purple.png" style="margin-top:-15px">トップへ</a>
       <nav class="footer-links">
         {% block footer_nav %}
           <ul class="unstyled">

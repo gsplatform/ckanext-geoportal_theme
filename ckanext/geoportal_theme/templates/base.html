@@ -63,22 +63,39 @@
 
       {% block styles %}
         {{ super() }}
-        <link rel="stylesheet" href="base/css/custom.css" />
+        <link rel="stylesheet" href="/base/css/custom.css" />
+        <link rel="stylesheet" type="text/css" href="/css/thememain.css" />
+        {% resource 'ckanext-publicamundi/styles' %}
       {% endblock %}
     #}
 
-<!--    <link rel="stylesheet" type="text/css" href="/base/css/main.min.css" /> -->
-    <link rel="stylesheet" type="text/css" href="base/css/main.css" />
-<!--    <link rel="stylesheet" type="text/css" href="/css/bundlewigets.css" /> -->
-    <link rel="stylesheet" type="text/css" href="css/thememain.css" />
-    <link rel="stylesheet" type="text/css" href="css/widgets.css" />
-    <link rel="stylesheet" type="text/css" href="css/geomain.css" />
+  {#
+      {% ckan_extends %}
+      {% block styles %}
+        {{ super() }}
+	{% resource 'geoportal_theme/base/css/main.css' %}
+        {% resource 'geoportal_theme/thememain.css' %}
+        {% resource 'geoportal_theme/widgets.css' %}
+        {% resource 'geoportal_theme/geo/geomain.css' %}
+        {% resource 'geoportal_theme/jquerymix.js' %}
+        {% resource 'geoportal_theme/geomain.js' %}
+      {% endblock %}
+   #} 
+
+    <link rel="stylesheet" type="text/css" href="{{ h.url('/', locale='default', qualified=true) }}base/css/main.css" />
+
+    <link rel="stylesheet" type="text/css" href="{{ h.url('/', locale='default', qualified=true) }}css/thememain.css" />
+    <link rel="stylesheet" type="text/css" href="{{ h.url('/', locale='default', qualified=true) }}css/widgets.css" />
+    <link rel="stylesheet" type="text/css" href="{{ h.url('/', locale='default', qualified=true) }}css/geomain.css" />
+
+<!--
     <link rel="stylesheet" type="text/css" href="css/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="css/geo-resource-styles.css" />
     <link rel="stylesheet" type="text/css" href="css/leaflet.draw.ie.css" />
     <link rel="stylesheet" type="text/css" href="css/spatial_query.css" />
-    <script type="text/javascript" src="js/jquerymix.js"></script>
-    <script type="text/javascript" src="js/geomain.js"></script>
+-->
+
+    <script type="text/javascript" src="{{ h.url('/', locale='default', qualified=true) }}js/jquerymix.js"></script>
+    <script type="text/javascript" src="{{ h.url('/', locale='default', qualified=true) }}js/geomain.js"></script>
 
     {#
     {%- block styles %}
