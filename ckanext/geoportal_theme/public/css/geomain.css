@@ -12,7 +12,7 @@
 body { 
     color: #666666;
     background: #fff;
-    border: 4px #721FC4 solid;
+    border: 4px #0060DD solid;
     font-family: 'ACMuliLight', Helvetica, Arial, sans-serif;
     font-weight: 500;
 }
@@ -49,7 +49,7 @@ a {
 
 .account-masthead {
     //background: #AB79DC;
-    background: #721FC4;
+    background: #0060DD;
     font-color: #4E59A4;
     height: 42px;
 }
@@ -61,7 +61,7 @@ a {
 }
 .account-masthead .account .notifications a span{
     font-size:13px;
-    background-color: #721FC4;
+    background-color: #0060DD;
     padding-left:0;
 }
 .account-masthead .account ul li{
@@ -75,9 +75,9 @@ a {
 }
 .account-masthead .account .notifications a:hover span{
     //background-color: transparent;
-    //background-color: #721FC4;
+    //background-color: #0060DD;
     background-color: white;
-    color: #721FC4;
+    color: #0060DD;
 }
 
 .account-masthead .account ul li a{
@@ -101,7 +101,7 @@ a {
 }
 .account-masthead .account ul li a:hover{
     background-color: white;
-    color: #721FC4;
+    color: #0060DD;
 }
 .notifications-profile{
     display: block;
@@ -285,11 +285,11 @@ a {
     margin-right: 0;
     padding-top: 20px;
     border-radius: 0;
-    border-right: 2px #721fc4 solid;
+    border-right: 2px #0060DD solid;
     color: #666;
 }
 .nav-pills > li:first-child a{
-    border-left: 2px #721fc4 solid;
+    border-left: 2px #0060DD solid;
 }
 .nav-pills > li:hover a, .nav-pills > .active >a:hover {
     background-color: #4E59A4;
@@ -686,10 +686,10 @@ a {
     margin-bottom:5px;
 }
 .dataset-heading a{
-    color: #721FC4;
+    color: #0060DD;
 }
 .dataset-heading a:hover{
-    color: #AB79DC;
+    color: #7FAFEE;
     text-decoration: underline;
 }
 #package-list-home .dataset-heading img{
@@ -705,7 +705,7 @@ a {
     width: 160px;
     text-align: center;
     border-radius: 0;
-    border: 4px #721FC4 solid;
+    border: 4px #0060DD solid;
 }
 .media-item img{
     -webkit-transition: .2s ease-in-out;
@@ -737,14 +737,14 @@ a {
 .secondary .module {
     margin: -1px;
     border-right: 3px;
-    border: 1px #721FC4 solid;
+    border: 1px #0060DD solid;
 }
 .secondary .module:first-child {
     //border-top: none;
 }
 .secondary .module-heading{
-    border-top: 2px #721FC4 solid;
-    border-bottom: 1px #721FC4  solid;
+    border-top: 2px #0060DD solid;
+    border-bottom: 1px #0060DD  solid;
     padding: 8px 15px 7px 15px;
     text-align: left;
     background-color: #F6F6F6;
@@ -821,7 +821,7 @@ a {
     //border-bottom: 1px #4E59A4 solid;
 }
 .nav-item.active > a, .nav-aside li.active a, .nav-item.active > a:hover{
-    background: #721FC4;
+    background: #0060DD;
 }
 .nav-item.active > a:before, .nav-aside li.active a:before{
     background-image: none;
@@ -830,7 +830,7 @@ a {
     width:0;
     border-top:18px solid transparent;
     border-bottom:17px solid transparent;
-    border-left: 11px #721FC4 solid;
+    border-left: 11px #0060DD solid;
 }
 .context-info h1.heading{
     margin: 5px;
@@ -1105,17 +1105,17 @@ a {
 .btn {
     font-family: 'ACMuli';
     border-radius: 0;
-    border: 2px #721FC4 solid;
+    border: 2px #0060DD solid;
     background: #fff;
-    color: #721FC4;
+    color: #0060DD;
     text-shadow: none;
     box-shadow: none;
 }
 .btn:hover, .btn-hover{
     border-radius: 0;
-    background: #721FC4;
+    background: #0060DD;
     color: #fff !important;
-    border: 2px #721FC4 solid;
+    border: 2px #0060DD solid;
 }
 .dataset-private{
     text-transform: none;
@@ -1241,19 +1241,19 @@ a {
 }
 
 .dataset-resources li a{
-    border: 1px #721FC4 solid;
+    border: 1px #0060DD solid;
     font-family: 'ACMuli';
     font-size: 12px;
     margin-bottom: 5px;
     border-radius: 0;
     background-color: #fff !important;
-    color: #721FC4 !important;
+    color: #0060DD !important;
     //font-weight: bold;
     letter-spacing: 0.02em;
 }
 .dataset-resources li a:hover{
     color: white !important;
-    background-color: #721FC4 !important;
+    background-color: #0060DD !important;
     //font-weight: bold;
 }
 .middle-text{
