@@ -25,7 +25,7 @@
 
 
 2. サイトロゴの設定（ロゴがある場所を指定）
-         ckan.site_logo = /base/images/ckan-logo.png
+         ckan.site_logo = images/gspace_logo_type.png
 
 
 3. faviconの設定
