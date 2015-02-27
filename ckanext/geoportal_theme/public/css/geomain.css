@@ -380,7 +380,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(123,123,321,0.8);
-    height:70vh;
+    height:55vh;
 }
 .stayinview{
 }
@@ -633,15 +633,15 @@ a {
 }
 .search{
 }
-.homepage .module-search{ 
-    padding: 0;
-    border: 0;
-    box-shadow: none;
-    height:50px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
+//.homepage .module-search{ 
+//    padding: 0;
+//    border: 0;
+//    box-shadow: none;
+//    height:50px;
+//    position: absolute;
+//    width: 100%;
+//    bottom: 0;
+//}
 .homepage .module-search .module-content{
     margin:0;
     padding: 0;

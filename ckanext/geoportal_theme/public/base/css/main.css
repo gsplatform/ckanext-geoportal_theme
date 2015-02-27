@@ -7194,7 +7194,7 @@ h4 small {
 }
 .homepage [role=main] {
   padding: 20px 0;
-  min-height: 0;
+  min-height: 370px;
 }
 .homepage .row {
   position: relative;
@@ -7215,7 +7215,7 @@ h4 small {
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
-  background-color: #005d7a;
+  background-color: #0060DD;
   border-bottom: none;
 }
 .homepage .module-search .module-content .heading {
@@ -7223,6 +7223,7 @@ h4 small {
   margin-bottom: 7px;
   font-size: 24px;
   line-height: 40px;
+  background-color: #0060DD;
 }
 .homepage .module-search .tags {
   *zoom: 1;
