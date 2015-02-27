@@ -380,7 +380,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(123,123,321,0.8);
-    height:55vh;
+    height:70vh;
 }
 .stayinview{
 }
@@ -806,10 +806,12 @@ a {
     font-size: 22px;
 }
 .dataset-map-expanded #dataset-map{
-    top: -396px;
-    left:0;
-    height:396px;
-    border: 2px #4E59A4 solid;
+    //top: -396px;
+    //left:0;
+    //height:396px;
+    //border: 2px #4E59A4 solid;
+    top: -402px;
+    left: 44px;
 }
 .group{
     margin: 0 !important;
@@ -1298,7 +1300,7 @@ a {
 }
 /* New package */
 .stages li.active .highlight{
-    background: #4E59A4;
+    background: #0060DD;
 }
 .stages li.active:before{
     color: #000;
@@ -1485,4 +1487,3 @@ a {
 {
     background-image: url("../../images/icons/resources/wps.svg");
 }
-

@@ -139,6 +139,7 @@ input[type='checkbox'], input[type='radio'] {
 
 .form-horizontal .control-label {
     width: 140px;
+    text-align: left;
 }
 
 .form-horizontal .controls {
