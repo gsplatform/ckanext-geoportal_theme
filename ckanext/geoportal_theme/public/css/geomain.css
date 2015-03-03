@@ -380,7 +380,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(123,123,321,0.8);
-    height:55vh;
+    height:i55vh;
 }
 .stayinview{
 }
@@ -511,7 +511,8 @@ a {
     content: "";
 }
 .hidden {
-    display: none !important;
+    // display: none !important;
+    display: none;
     visibility: 0;
 }
 .breadcrumb-hide-text a{
