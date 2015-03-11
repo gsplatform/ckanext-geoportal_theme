@@ -7557,7 +7557,11 @@ h4 small {
   float: left;
   margin-left: 20px;
   width: 460px;
+  text-align: right;
 }
+.attribution.poweredby {
+  margin-left:60px;
+} 
 .footer-links {
   margin-left: 0;
 }
@@ -7578,10 +7582,10 @@ h4 small {
 }
 .attribution .ckan-footer-logo {
   display: block;
-  width: 68px;
+  width: 450px;
   height: 21px;
   margin-top: 2px;
-  background: url("../../../base/images/ckan-logo-footer.png") no-repeat top left;
+  background: url("../../base/images/ckan-logo-footer.png") no-repeat top right;
   text-indent: -900em;
 }
 .lang-select {

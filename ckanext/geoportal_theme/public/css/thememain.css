@@ -516,4 +516,6 @@ section.additional-info header > .download-links {
 .metadata-label {
     display: none;
 }
-
+#content .module-content .resources li.resource-item .btn-group {
+    top: -32px;
+}
