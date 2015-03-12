@@ -24,19 +24,31 @@
 <!--
       </div>
       -->
-      <div class="attribution">
-	<ul class="unstyled" style="width: 520px;">
-	  <li>
-	    (C) 2015 Ministry of Internal Affairs and Communications All Rights Reserved.
-	  </li>
-	</ul>
-      </div>
       <div class="span4 attribution">
       </div>
       <div class="span4 attribution poweredby">
         {% block footer_attribution %}
           <p>{% trans %}<strong>Powered by</strong> <a class="hide-text ckan-footer-logo" href="http://ckan.org">CKAN</a>{% endtrans %}</p>
         {% endblock %}
+      </div>
+      <nav class="footer-links">
+          <ul class="unstyled">
+            <!--  <li><a href="{{ h.url_for(controller='home', action='about') }}">{{ _('About {0}').format(g.site_title) }}</a></li> -->
+            <li></li>
+          </ul>
+          <ul class="unstyled">
+          </ul>
+      </nav>
+      <nav class="footer-links">
+	<ul class="unstyled">
+	</ul>
+      </nav>
+      <div class="attribution">
+	<ul class="unstyled" style="width: 520px;">
+	  <li>
+	    (C) 2015 Ministry of Internal Affairs and Communications All Rights Reserved.
+	  </li>
+	</ul>
       </div>
     {% endblock %}
   </div>
